@@ -18,6 +18,7 @@
 		</form>
 _END;
     
+    
 	if ($_FILES)
 	{
 		$name = strtolower($_FILES['filename']['name']);
