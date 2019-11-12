@@ -1,0 +1,22 @@
+.float{
+	float: left;
+}
+
+.center{
+	margin: auto;
+}
+
+.vertical_center{
+	vertical-align: middle;
+}
+
+#header{
+	width:70%;
+}
+
+#disclaimer{
+	border: 1px solid black;
+	display:inline-block;
+	float:right;
+	width:45%;
+}
