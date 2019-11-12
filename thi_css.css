@@ -6,17 +6,46 @@
 	margin: auto;
 }
 
-.vertical_center{
-	vertical-align: middle;
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
 }
 
 #header{
 	width:70%;
+	border: 1px solid green;
+	clear:both;
+
 }
 
 #disclaimer{
 	border: 1px solid black;
-	display:inline-block;
-	float:right;
 	width:45%;
+}
+
+#title{
+	width:100%;
+	display: flex;
+  	align-items: center; 
+ 	clear:both;
+ 	justify-content: space-between;
+}
+
+#name_and_date{
+	clear:both;
+	overflow:hidden;
+	border:1px solid blue;
+}
+
+#instructions{
+	border:1px solid red;
+}
+
+input {
+  font-size: 30px;
+  background-color:skyblue;
+  border-bottom: 1px dashed black;
 }
