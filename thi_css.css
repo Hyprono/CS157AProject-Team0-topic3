@@ -14,16 +14,35 @@
 	float:right;
 }
 
-#header{
-	width:70%;
-	border: 1px solid green;
-	clear:both;
+.lightgray{
+  	background-color:lightgray;
+}
 
+.row{
+	padding:20px;
+	clear:both;
+}
+
+.radio_buttons{
+	width:35%;
+}
+
+#questions{
+	width:100%;
+	border-collapse: collapse;
+}
+
+#page{
+	width:70%;
+}
+
+#header{
+	clear:both;
 }
 
 #disclaimer{
-	border: 1px solid black;
 	width:45%;
+	border: 1px solid black;
 }
 
 #title{
@@ -37,11 +56,16 @@
 #name_and_date{
 	clear:both;
 	overflow:hidden;
-	border:1px solid blue;
 }
 
 #instructions{
-	border:1px solid red;
+	margin-top: 10px;
+}
+
+#questions{
+	overflow:hidden;
+	border-color: lightgray;
+	margin-top: 10px;
 }
 
 input {
