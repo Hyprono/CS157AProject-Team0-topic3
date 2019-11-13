@@ -9,3 +9,5 @@ Topic:
 Project 3. Web-based questionnaires for keeping track of the severity of the hearing problem.Enter and store data from questionnaires collected at the visitsthat areused to evaluate the severity of the hearing problem: Tinnitus Handicap Inventory (THI) and Tinnitus Functional Index (TFI). The templates for the paper forms are available. Implement requirements: 1.4, 1.4.2, 1.4.3, 3.6-3.7.  Sample tables: Visit, THI, TFI.
 
 Harry was here.
+
+Alexander was here!
