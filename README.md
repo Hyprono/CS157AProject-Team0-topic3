@@ -1,5 +1,8 @@
 # CS157AProject-Team0-topic3
 
+Author
+Hunter Lai
+
 This project's goal is to create a web application that will have fields where a user can input data. This data will then be submitted to the database. We are using PHP or JS on client side and MySQL on the server side.
 
 Topic:
