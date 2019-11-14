@@ -68,6 +68,38 @@
 	margin-top: 10px;
 }
 
+#bottom{
+	clear:both;
+	display: flex;
+  	align-items: center; 
+ 	justify-content: space-between;
+ 	margin-left:30px;
+}
+
+#evaluation{
+	float:left;
+	font-size:19px;
+	display: flex;
+  	align-items: center; 
+ 	justify-content: space-between;
+ 	clear:both;
+}
+
+#score_location{
+	float:left;
+}
+
+#score{
+	font-size:25px;
+	background-color:skyblue;
+	text-align: center;
+	border:3px solid black;
+}
+
+#scale{
+	float:right;
+}
+
 input {
   font-size: 30px;
   background-color:skyblue;
