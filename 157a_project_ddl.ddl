@@ -4,9 +4,8 @@
 --   type:      Oracle Database 11g
 
 
-
 CREATE TABLE patient (
-    thc VARCHAR2(6) NOT NULL
+    thc VARCHAR(6) NOT NULL
 );
 
 ALTER TABLE patient ADD CONSTRAINT patient_pk PRIMARY KEY ( thc );
@@ -97,9 +96,9 @@ CREATE TABLE visit
 (
     visit_id   INTEGER NOT NULL,
     visit_nr   SMALLINT,
-    "Date"     DATE,
-    comments   VARCHAR2
-( max ) NOT NULL, patient_thc VARCHAR2 ( 6 ) NOT NULL ) 
+    Date     DATE,
+    comments   VARCHAR(500) NOT NULL,
+    patient_thc VARCHAR( 6 ) NOT NULL ) 
 ;
 
 ALTER TABLE visit ADD CONSTRAINT visit_pk PRIMARY KEY ( visit_id );
