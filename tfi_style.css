@@ -1,9 +1,33 @@
 .center{
-	margin:auto;
+	margin:0 auto;
 }
 
 .border{
 	border: 1px solid black;
+}
+
+.full{
+	width:100%;
+}
+
+.border_red{
+	border:1px solid red;
+}
+
+.gray{
+	background-color:lightgray;
+}
+
+.fit{
+	display:inline-block;
+}
+
+.parent_center{
+	text-align: center;
+}
+
+.spacing{
+	margin-bottom:10px;
 }
 
 #body{
@@ -29,10 +53,6 @@
 
 #questions{
 	width:100%;
-}
-
-#I{
-	background-color:lightgray;
 }
 
 table {
