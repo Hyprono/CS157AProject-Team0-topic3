@@ -1,0 +1,47 @@
+.center{
+	margin:auto;
+}
+
+.border{
+	border: 1px solid black;
+}
+
+#body{
+	width:70%;
+	align-content:center;
+}
+
+#title{
+	text-align: center;
+}
+
+#name{
+	font-size: 20px;
+}
+
+#date{
+	font-size:20px;
+}
+
+#name_div{
+	float: right;
+}
+
+#questions{
+	width:100%;
+}
+
+#I{
+	background-color:lightgray;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+}
+
+tr {
+	padding:10px;
+}
