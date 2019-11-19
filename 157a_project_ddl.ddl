@@ -14,7 +14,7 @@ CREATE TABLE tfi (
     total              SMALLINT,
     intrusive          SMALLINT,
     sense_of_control   SMALLINT,
-    cognative          SMALLINT,
+    cogntive          SMALLINT,
     sleep              SMALLINT,
     auditory           SMALLINT,
     relaxation         SMALLINT,
