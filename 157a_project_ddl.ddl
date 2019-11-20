@@ -83,6 +83,7 @@ CREATE TABLE thi (
     q_23             SMALLINT,
     q_24             SMALLINT,
     q_25             SMALLINT,
+    //this is comment to be removed; might consider using this for visit: SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
     visit_visit_id   INTEGER NOT NULL
 );
 
