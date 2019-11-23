@@ -1,6 +1,6 @@
 CREATE DATABASE finalProject;
 
-USE DATABASE finalProject;
+USE finalProject;
 
 CREATE TABLE patient (
     thc VARCHAR(6) NOT NULL
