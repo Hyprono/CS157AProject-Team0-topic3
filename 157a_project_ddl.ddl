@@ -81,7 +81,6 @@ CREATE TABLE thi (
     q_23             SMALLINT,
     q_24             SMALLINT,
     q_25             SMALLINT,
-    //this is comment to be removed; might consider using this for visit: SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
     visit_visit_id   INTEGER NOT NULL
 );
 
@@ -93,7 +92,7 @@ CREATE UNIQUE INDEX thi__idx ON
 CREATE TABLE visit
 
 (
-    visit_id   INTEGER NOT NULL,
+    visit_id   INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
     visit_nr   SMALLINT,
     Date     DATE,
     comments   VARCHAR(500) NOT NULL,
