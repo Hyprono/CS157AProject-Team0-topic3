@@ -99,6 +99,7 @@ CREATE TABLE visit
     #I'm defining the constraint inside the table because auto_increment requires that the attrib automatically
     #be a prime attribute
     #I have removed the alter statement involving visit_pk, it has been built in the table creation now.
+    
     visit_id   INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
     CONSTRAINT visit_pk PRIMARY KEY(visit_id),
     visit_nr   SMALLINT,
