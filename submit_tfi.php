@@ -1,4 +1,11 @@
 <?php
+	require_once "thi.php";
+	require_once "login.php";
+	require_once "main2.php";
+
+	session_start();
+	$newNr = $_SESSION['newNr'];
+
 	$qArray = array($_POST['q1'],$_POST['q2'],$_POST['q3'],$_POST['q4'],$_POST['q5'],
 $_POST['q6'],$_POST['q7'],$_POST['q8'],$_POST['q9'],$_POST['q10'],$_POST['q11'],$_POST['q12'],
 $_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q18'],$_POST['q19'],$_POST['q20'],$_POST['q21'],$_POST['q22'],$_POST['q23'],$_POST['q24'],$_POST['q25']);
@@ -70,10 +77,10 @@ $_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q1
 	$addEntry = $conn->prepare('INSERT INTO thi VALUES(?,?,?,?,?,?,?,?,?,?,
 		?,?,?,?,?,?,?,?,?,?,
 		?,?,?,?,?,?,?,?,?,?,
-		?,?,?,?)');
-	$addEntry->bind_param('iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii',$total,$intrusive,$sense_of_control,$cognitive,$sleep,$auditory,$relaxation,$quality_of_life,$emotional,$_POST['q1'],$_POST['q2'],$_POST['q3'],$_POST['q4'],$_POST['q5'],
+		?,?,?,?,?)');
+	$addEntry->bind_param('iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii',$total,$intrusive,$sense_of_control,$cognitive,$sleep,$auditory,$relaxation,$quality_of_life,$emotional,$_POST['q1'],$_POST['q2'],$_POST['q3'],$_POST['q4'],$_POST['q5'],
 $_POST['q6'],$_POST['q7'],$_POST['q8'],$_POST['q9'],$_POST['q10'],$_POST['q11'],$_POST['q12'],
-$_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q18'],$_POST['q19'],$_POST['q20'],$_POST['q21'],$_POST['q22'],$_POST['q23'],$_POST['q24'],$_POST['q25']);
+$_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q18'],$_POST['q19'],$_POST['q20'],$_POST['q21'],$_POST['q22'],$_POST['q23'],$_POST['q24'],$_POST['q25'],$newNr);
 	$addEntry->execute();
 	$addEntry->close();
 	$conn->close();
