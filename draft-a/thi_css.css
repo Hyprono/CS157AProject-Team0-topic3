@@ -1,0 +1,107 @@
+.float{
+	float: left;
+}
+
+.center{
+	margin: auto;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+.lightgray{
+  	background-color:lightgray;
+}
+
+.row{
+	padding:20px;
+	clear:both;
+}
+
+.radio_buttons{
+	width:35%;
+}
+
+#questions{
+	width:100%;
+	border-collapse: collapse;
+}
+
+#page{
+	width:70%;
+}
+
+#header{
+	clear:both;
+}
+
+#disclaimer{
+	width:45%;
+	border: 1px solid black;
+}
+
+#title{
+	width:100%;
+	display: flex;
+  	align-items: center; 
+ 	clear:both;
+ 	justify-content: space-between;
+}
+
+#name_and_date{
+	clear:both;
+	overflow:hidden;
+}
+
+#instructions{
+	margin-top: 10px;
+}
+
+#questions{
+	overflow:hidden;
+	border-color: lightgray;
+	margin-top: 10px;
+}
+
+#bottom{
+	clear:both;
+	display: flex;
+  	align-items: center; 
+ 	justify-content: space-between;
+ 	margin-left:30px;
+}
+
+#evaluation{
+	float:left;
+	font-size:19px;
+	display: flex;
+  	align-items: center; 
+ 	justify-content: space-between;
+ 	clear:both;
+}
+
+#score_location{
+	float:left;
+}
+
+#score{
+	font-size:25px;
+	background-color:skyblue;
+	text-align: center;
+	border:3px solid black;
+}
+
+#scale{
+	float:right;
+}
+
+input {
+  font-size: 30px;
+  background-color:skyblue;
+  border-bottom: 1px dashed black;
+}
