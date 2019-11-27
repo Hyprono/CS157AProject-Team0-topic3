@@ -1,4 +1,5 @@
 <?php
+	//doesn't have error_reporting(0) or require_once "main2.php" like thi.php does?
 	echo <<<_END
 	<!DOCTYPE HTML>
 	<html>  
