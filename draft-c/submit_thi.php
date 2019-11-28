@@ -1,5 +1,9 @@
-  
-<?php
+  <?php
+  /**
+*This sends the tfi information to the database and
+* then calculates teh score
+*
+*/
 	require_once "thi.php";
 	require_once "login.php";
 	require_once "main.php";

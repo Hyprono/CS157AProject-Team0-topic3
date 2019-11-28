@@ -1,4 +1,8 @@
 <?php
+/**
+* The html document for the thi form
+*
+*/
 
 	require_once "main.php";
 	echo <<<_END

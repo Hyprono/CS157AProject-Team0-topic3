@@ -1,4 +1,9 @@
 <?php
+/**
+* This file displays the main page and sign up
+* and when the user enters the patient information
+* it retrieves the patient information.
+*/
 	require_once 'login.php';
 	
 	$menu = "		

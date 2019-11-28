@@ -1,4 +1,9 @@
 <?php
+/**
+*This is the html file for the tfi form and is used
+* by the php to display
+*
+*/
 	require_once "main.php";
 
 	echo <<<_END

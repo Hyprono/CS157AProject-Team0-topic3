@@ -1,4 +1,9 @@
 <?php
+/**
+* This sends the answers to the database and then
+* calculates the total score
+*
+*/
 	
 	require_once "tfi.php";
 	require_once "login.php";
