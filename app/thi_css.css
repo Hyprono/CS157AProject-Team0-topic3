@@ -1,3 +1,7 @@
+/**
+*CSS for the THI form.
+*
+*/
 .float{
 	float: left;
 }
@@ -47,7 +51,7 @@
 
 #title{
 	width:100%;
-	display: flex;
+
   	align-items: center; 
  	clear:both;
  	justify-content: space-between;
@@ -77,7 +81,6 @@
 }
 
 #evaluation{
-	float:left;
 	font-size:19px;
 	display: flex;
   	align-items: center; 
@@ -91,17 +94,23 @@
 
 #score{
 	font-size:25px;
-	background-color:skyblue;
+	background-color:#cef1ff;
 	text-align: center;
 	border:3px solid black;
 }
 
 #scale{
-	float:right;
+}
+
+div{
+	max-width: 660px;
+}
+table{
+	max-width: 660px;
 }
 
 input {
   font-size: 30px;
-  background-color:skyblue;
+  background-color:#cef1ff;
   border-bottom: 1px dashed black;
 }

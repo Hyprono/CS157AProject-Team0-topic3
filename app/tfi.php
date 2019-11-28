@@ -58,16 +58,17 @@
 									<div class="fit spacing">
 										<i>Never aware</i>&#8594;
 										<input type="radio" name="q1" value="0">0%&nbsp
-										<input type="radio" name="q1" value="10">10% &nbsp
-										<input type="radio" name="q1" value="20">20%&nbsp
-										<input type="radio" name="q1" value="30">30%&nbsp
-										<input type="radio" name="q1" value="40">40%&nbsp
-										<input type="radio" name="q1" value="50">50%&nbsp
-										<input type="radio" name="q1" value="60">60%&nbsp
-										<input type="radio" name="q1" value="70">70%&nbsp
-										<input type="radio" name="q1" value="80">80%&nbsp
-										<input type="radio" name="q1" value="90">90%&nbsp
-										<input type="radio" name="q1" value="100">100%&nbsp
+										<input type="radio" name="q1" value="1">10% &nbsp
+										<input type="radio" name="q1" value="2">20%&nbsp
+										<input type="radio" name="q1" value="3">30%&nbsp
+										<input type="radio" name="q1" value="4">40%&nbsp
+										<input type="radio" name="q1" value="5">50%&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+										<input type="radio" name="q1" value="6">60%&nbsp
+										<input type="radio" name="q1" value="7">70%&nbsp
+										<input type="radio" name="q1" value="8">80%&nbsp
+										<input type="radio" name="q1" value="9">90%&nbsp
+										<input type="radio" name="q1" value="10">100%&nbsp
 										&#8592;<i>Always aware</i>
 									</div>
 								</td>
@@ -87,6 +88,7 @@
 										<input type="radio" name="q2" value="3">3&nbsp
 										<input type="radio" name="q2" value="4">4&nbsp
 										<input type="radio" name="q2" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q2" value="6">6&nbsp
 										<input type="radio" name="q2" value="7">7&nbsp
 										<input type="radio" name="q2" value="8">8&nbsp
@@ -106,16 +108,17 @@
 									<div class="fit spacing">
 										<i>None of the time</i>&#8594;
 										<input type="radio" name="q3" value="0">0%&nbsp
-										<input type="radio" name="q3" value="10">10%&nbsp
-										<input type="radio" name="q3" value="20">20%&nbsp
-										<input type="radio" name="q3" value="30">30%&nbsp
-										<input type="radio" name="q3" value="40">40%&nbsp
-										<input type="radio" name="q3" value="50">50%&nbsp
-										<input type="radio" name="q3" value="60">60%&nbsp
-										<input type="radio" name="q3" value="70">70%&nbsp
-										<input type="radio" name="q3" value="80">80%&nbsp
-										<input type="radio" name="q3" value="90">90%&nbsp
-										<input type="radio" name="q3" value="100">100%&nbsp
+										<input type="radio" name="q3" value="1">10%&nbsp
+										<input type="radio" name="q3" value="2">20%&nbsp
+										<input type="radio" name="q3" value="3">30%&nbsp
+										<input type="radio" name="q3" value="4">40%&nbsp
+										<input type="radio" name="q3" value="5">50%&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+										<input type="radio" name="q3" value="6">60%&nbsp
+										<input type="radio" name="q3" value="7">70%&nbsp
+										<input type="radio" name="q3" value="8">80%&nbsp
+										<input type="radio" name="q3" value="9">90%&nbsp
+										<input type="radio" name="q3" value="10">100%&nbsp
 										&#8592;<i>All of the time</i>
 									</div>
 								</td>
@@ -146,6 +149,7 @@
 										<input type="radio" name="q4" value="3">3&nbsp
 										<input type="radio" name="q4" value="4">4&nbsp
 										<input type="radio" name="q4" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q4" value="6">6&nbsp
 										<input type="radio" name="q4" value="7">7&nbsp
 										<input type="radio" name="q4" value="8">8&nbsp
@@ -170,6 +174,7 @@
 										<input type="radio" name="q5" value="3">3&nbsp
 										<input type="radio" name="q5" value="4">4&nbsp
 										<input type="radio" name="q5" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q5" value="6">6&nbsp
 										<input type="radio" name="q5" value="7">7&nbsp
 										<input type="radio" name="q5" value="8">8&nbsp
@@ -194,6 +199,7 @@
 										<input type="radio" name="q6" value="3">3&nbsp
 										<input type="radio" name="q6" value="4">4&nbsp
 										<input type="radio" name="q6" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q6" value="6">6&nbsp
 										<input type="radio" name="q6" value="7">7&nbsp
 										<input type="radio" name="q6" value="8">8&nbsp
@@ -229,6 +235,7 @@
 										<input type="radio" name="q7" value="3">3&nbsp
 										<input type="radio" name="q7" value="4">4&nbsp
 										<input type="radio" name="q7" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q7" value="6">6&nbsp
 										<input type="radio" name="q7" value="7">7&nbsp
 										<input type="radio" name="q7" value="8">8&nbsp
@@ -253,6 +260,7 @@
 										<input type="radio" name="q8" value="3">3&nbsp
 										<input type="radio" name="q8" value="4">4&nbsp
 										<input type="radio" name="q8" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q8" value="6">6&nbsp
 										<input type="radio" name="q8" value="7">7&nbsp
 										<input type="radio" name="q8" value="8">8&nbsp
@@ -277,6 +285,7 @@
 										<input type="radio" name="q9" value="3">3&nbsp
 										<input type="radio" name="q9" value="4">4&nbsp
 										<input type="radio" name="q9" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q9" value="6">6&nbsp
 										<input type="radio" name="q9" value="7">7&nbsp
 										<input type="radio" name="q9" value="8">8&nbsp
@@ -312,6 +321,7 @@
 										<input type="radio" name="q10" value="3">3&nbsp
 										<input type="radio" name="q10" value="4">4&nbsp
 										<input type="radio" name="q10" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q10" value="6">6&nbsp
 										<input type="radio" name="q10" value="7">7&nbsp
 										<input type="radio" name="q10" value="8">8&nbsp
@@ -336,6 +346,7 @@
 										<input type="radio" name="q11" value="3">3&nbsp
 										<input type="radio" name="q11" value="4">4&nbsp
 										<input type="radio" name="q11" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q11" value="6">6&nbsp
 										<input type="radio" name="q11" value="7">7&nbsp
 										<input type="radio" name="q11" value="8">8&nbsp
@@ -360,6 +371,7 @@
 										<input type="radio" name="q12" value="3">3&nbsp
 										<input type="radio" name="q12" value="4">4&nbsp
 										<input type="radio" name="q12" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q12" value="6">6&nbsp
 										<input type="radio" name="q12" value="7">7&nbsp
 										<input type="radio" name="q12" value="8">8&nbsp
@@ -395,6 +407,7 @@
 										<input type="radio" name="q13" value="3">3&nbsp
 										<input type="radio" name="q13" value="4">4&nbsp
 										<input type="radio" name="q13" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q13" value="6">6&nbsp
 										<input type="radio" name="q13" value="7">7&nbsp
 										<input type="radio" name="q13" value="8">8&nbsp
@@ -419,6 +432,7 @@
 										<input type="radio" name="q14" value="3">3&nbsp
 										<input type="radio" name="q14" value="4">4&nbsp
 										<input type="radio" name="q14" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q14" value="6">6&nbsp
 										<input type="radio" name="q14" value="7">7&nbsp
 										<input type="radio" name="q14" value="8">8&nbsp
@@ -443,6 +457,7 @@
 										<input type="radio" name="q15" value="3">3&nbsp
 										<input type="radio" name="q15" value="4">4&nbsp
 										<input type="radio" name="q15" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q15" value="6">6&nbsp
 										<input type="radio" name="q15" value="7">7&nbsp
 										<input type="radio" name="q15" value="8">8&nbsp
@@ -478,6 +493,7 @@
 										<input type="radio" name="q16" value="3">3&nbsp
 										<input type="radio" name="q16" value="4">4&nbsp
 										<input type="radio" name="q16" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q16" value="6">6&nbsp
 										<input type="radio" name="q16" value="7">7&nbsp
 										<input type="radio" name="q16" value="8">8&nbsp
@@ -502,6 +518,7 @@
 										<input type="radio" name="q17" value="3">3&nbsp
 										<input type="radio" name="q17" value="4">4&nbsp
 										<input type="radio" name="q17" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q17" value="6">6&nbsp
 										<input type="radio" name="q17" value="7">7&nbsp
 										<input type="radio" name="q17" value="8">8&nbsp
@@ -526,6 +543,7 @@
 										<input type="radio" name="q18" value="3">3&nbsp
 										<input type="radio" name="q18" value="4">4&nbsp
 										<input type="radio" name="q18" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q18" value="6">6&nbsp
 										<input type="radio" name="q18" value="7">7&nbsp
 										<input type="radio" name="q18" value="8">8&nbsp
@@ -561,6 +579,7 @@
 										<input type="radio" name="q19" value="3">3&nbsp
 										<input type="radio" name="q19" value="4">4&nbsp
 										<input type="radio" name="q19" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q19" value="6">6&nbsp
 										<input type="radio" name="q19" value="7">7&nbsp
 										<input type="radio" name="q19" value="8">8&nbsp
@@ -585,6 +604,7 @@
 										<input type="radio" name="q20" value="3">3&nbsp
 										<input type="radio" name="q20" value="4">4&nbsp
 										<input type="radio" name="q20" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q20" value="6">6&nbsp
 										<input type="radio" name="q20" value="7">7&nbsp
 										<input type="radio" name="q20" value="8">8&nbsp
@@ -609,6 +629,7 @@
 										<input type="radio" name="q21" value="3">3&nbsp
 										<input type="radio" name="q21" value="4">4&nbsp
 										<input type="radio" name="q21" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q21" value="6">6&nbsp
 										<input type="radio" name="q21" value="7">7&nbsp
 										<input type="radio" name="q21" value="8">8&nbsp
@@ -633,6 +654,7 @@
 										<input type="radio" name="q22" value="3">3&nbsp
 										<input type="radio" name="q22" value="4">4&nbsp
 										<input type="radio" name="q22" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q22" value="6">6&nbsp
 										<input type="radio" name="q22" value="7">7&nbsp
 										<input type="radio" name="q22" value="8">8&nbsp
@@ -668,6 +690,7 @@
 										<input type="radio" name="q23" value="3">3&nbsp
 										<input type="radio" name="q23" value="4">4&nbsp
 										<input type="radio" name="q23" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q23" value="6">6&nbsp
 										<input type="radio" name="q23" value="7">7&nbsp
 										<input type="radio" name="q23" value="8">8&nbsp
@@ -692,6 +715,7 @@
 										<input type="radio" name="q24" value="3">3&nbsp
 										<input type="radio" name="q24" value="4">4&nbsp
 										<input type="radio" name="q24" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q24" value="6">6&nbsp
 										<input type="radio" name="q24" value="7">7&nbsp
 										<input type="radio" name="q24" value="8">8&nbsp
@@ -716,6 +740,7 @@
 										<input type="radio" name="q25" value="3">3&nbsp
 										<input type="radio" name="q25" value="4">4&nbsp
 										<input type="radio" name="q25" value="5">5&nbsp
+										<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 										<input type="radio" name="q25" value="6">6&nbsp
 										<input type="radio" name="q25" value="7">7&nbsp
 										<input type="radio" name="q25" value="8">8&nbsp

@@ -1,26 +1,62 @@
 <?php
+/**
+* This file displays the main page and sign up
+* and when the user enters the patient information
+* it retrieves the patient information.
+*/
 	require_once 'login.php';
-	
+	error_reporting(0);
 	$menu = "		
 		<html>
 			<head>
 				<title>Main Page</title>
 				<style>
-					div{ padding:10px; }
-					<link href='.'/thi_css.css' rel='stylesheet' type='text'/'css'>
+					div{ padding:10px; max-width: 660px; min-width:660px; }
+					width:
+					<link href = './tfi_css.css' rel = 'stylesheet' type = 'text/css'>
 				</style>
 			</head>
 		<body>
-		<div style='margin:0 auto;width:80%'>
-			<form method='post' id='form1' enctype='multipart/form-data'>
-				<label for='thc'>THC 
-				<input type='text' name='thc'>
-			</form>
-			<button type='submit' form='form1' value='Submit'>Submit</button>
-			<div>
-				<input type = 'button' value = 'THI form' onclick=\"window.location.href = 'http://localhost/CS157A/submit_thi.php'\"/>
-				<input type = 'button' value = 'TFI form' onclick=\"window.location.href = 'http://localhost/CS157A/submit_tfi.php'\"/>
+		<br/><br/><br/>
+		<div style='margin:0 auto;width:80%; box-shadow:2px 2px 2px 4px #ccc; width:660px; top-padding:30px;'>
+			<div style:padding:20px;>
+				<h3>Tinnitus Hyperacusis Center</h3>
+				<a href='./main.php' style='float:right;margin-top:-70px;padding:40px;'>home / sign out</a>
+				<h1>Interview Sign In</h1>
 			</div>
+			<form method='post' id='form1' enctype='multipart/form-data'>
+				  <div style='padding:5px 25px'>
+						<label for='thc' style='font-size:18px;'>THC#:
+						<br/>
+						<input type='text' name='thc' style='font-size: 20px;width:85%; background-color:#cef1ff; border-bottom: 1px dashed black;'>
+  				</div>	
+				  <div style='padding:5px 25px'>
+						<label for='thc' style='font-size:18px;'>Patient THC#:
+						<br/>
+						<input type='text' style='font-size: 20px; width:85%; background-color:#cef1ff; border-bottom: 1px dashed black;'>
+  				</div>
+					<div style='padding:5px 25px'>
+						<label for='thc' style='font-size:18px;'>Date:
+						<br/>
+						<input type='text' style='font-size: 20px;width:85%; background-color:#cef1ff; border-bottom: 1px dashed black;'>	
+  				</div>
+			</form>
+			<br/>
+			<button type='submit' form='form1' style='font-size:20px;width:100%;'value='Submit'>Submit</button>
+
+
+			<div style='padding:20px 0px;width:660px;'>
+				<input type = 'button' disabled value = 'Initial / Follow-up Interview' onclick=\"window.location.href = 'http://localhost/app/submit_thi.php'\"
+					style='font-size:16px;width:32%;background-color:#cef1ff;'
+				/>
+				<input type = 'button' value = 'Tinnitus Handicap Inventory' onclick=\"window.location.href = 'http://localhost/app/submit_thi.php'\"
+					style='font-size:16px;width:32%;background-color:#cef1ff;'
+				/>
+				<input type = 'button' value = 'Tinnitus Functional Index' onclick=\"window.location.href = 'http://localhost/app/submit_tfi.php'\"
+					style='font-size:16px;width:32%;background-color:#cef1ff;'
+				/>
+			</div>
+
 		</div>
 		</html>
 	";
@@ -30,6 +66,7 @@
 	if($conn->connect_error) {
 		die(print("Your user info is either incorrect or not in the system."));
 	}
+
 	echo htmlspecialchars_decode($menu);
 		
 	if(isset($_POST['thc']))
@@ -88,6 +125,5 @@
 		$newID = $newID->fetch_row();
 		$newID = end($newID);
 		$_SESSION['newID'] = $newID;
-		echo $_SESSION['newID'];
 	}
 ?>

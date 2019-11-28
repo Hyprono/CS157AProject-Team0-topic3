@@ -1,5 +1,9 @@
-  
-<?php
+  <?php
+  /**
+*This sends the tfi information to the database and
+* then calculates teh score
+*
+*/
 	require_once "thi.php";
 	require_once "login.php";
 	require_once "main.php";
@@ -43,7 +47,8 @@ $_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q1
 	}
 	if(count($uncompleted) != 0)
 	{
-		echo "There are uncomplete questions.Please answer these questions before resubmitting for an accurate result. Your unfinished questions are: ";
+		echo "<br/><br/><br/><div class='center' style='padding:20px;box-shadow:2px 2px 2px 4px #ccc'><h3>Hint:</h3><span>
+There are uncomplete questions. Please answer these questions before resubmitting for an accurate result. Your unfinished questions are: </span><div class=center>";
 		$string = "";
 		for($i = 0; $i<count($uncompleted); $i++)
 		{
@@ -54,11 +59,17 @@ $_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q1
  			}
 		}
 		echo $string;
-		die(print("."));
+		die(print("</div></div><br/><br/><br/><br/><br/><br/>"));
 	}
 	echo <<<_END
-		<html><head><title>Form Upload</title></head><body>
-		<div id="bottom">
+		<html>
+			<head>
+				<title>Form Upload</title>
+			</head>
+			<body>
+			<br/><br/><br/>
+			<div class='center' style='padding:20px;box-shadow:2px 2px 2px 4px #ccc'>
+				<h3>Results:</h3>
 				<div id="evaluation">
 					<b>The sum of all your responses is your THI score>>></b>
 					<textarea id="score" rows="1" readonly> $sc_t </textarea>
@@ -70,8 +81,9 @@ $_POST['q13'],$_POST['q14'],$_POST['q15'],$_POST['q16'],$_POST['q17'],$_POST['q1
 					58-76: Severe handicap (Grade 4) </br>
 					78-100: Catastrophic handicap (Grade 5)
 				</div>
-			</div>
-		</body>
+			</div>	
+			<br/><br/><br/><br/>
+			</body>
 		</html>
 _END;
 	$conn = new mysqli($host_name, $user_name, $password, $database);
